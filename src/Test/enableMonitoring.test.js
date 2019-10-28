@@ -10,9 +10,7 @@ test('resolver state does not change', () => {
     expect(JSON.stringify(enableMonitoring(stateTypeResolvers).State.name)).toBe((JSON.stringify(stateTypeResolvers.State.name)))
 })
 
-// test('resolver name does not change', () => {
-//     expect(enableMonitoring(stateTypeResolvers).State.county.name).toBe(('name'))
-// })
+
 
 test('checking the state type', () => {
     console.log(stateTypeResolvers);
